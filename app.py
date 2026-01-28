@@ -5,7 +5,7 @@ import sys
 # Add the directory containing imports to the system path
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
-from backend.ai_service import generate_ad_copy
+from backend.ai_copy_generator import generate_ad_copy
 from streamlit_app.ui_components import render_header, render_output_card
 
 # 1. Page Configuration
